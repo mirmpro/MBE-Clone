@@ -1,0 +1,248 @@
+body {
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000;
+}
+a {
+	color: red;
+	text-decoration: none;
+}
+a:focus, a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+header {
+    background-color: #ececec;
+    padding: 10px 0;
+}
+ul.checks { list-style-image: url('../../img/land-franq/check-icon.png'); }
+ul.checks li {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+}
+.info-telefono {
+	float: right;
+	background-color: red;
+	color: #fff;
+	padding: 5px 25px;
+	font-size: 30px;
+	margin-top: -10px;
+	white-space: nowrap;
+	border-radius: 5px 0 0 5px;
+	box-shadow: 3px 3px 3px #888888;
+	font-weight: 500;
+	letter-spacing: 0px;
+}
+.info-telefono a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+h1 {
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+	margin-top: 25px;
+}
+.msg {
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+.msg strong {color: red;}
+.msg-item {
+	margin: 10px 0;
+	display: flex;
+}
+.msg-ico {
+	margin-right: 5px;
+	width: 37px;
+	height: 30px;
+}
+.msg-txt {
+	display: inline-block;
+}
+.bolas {
+	margin-top: 20px;
+	display: inline-block;
+	float: right;
+}
+.b {
+	float: left;
+	background-color: red;
+	border-radius: 100%;
+	color: #fff;
+	margin: 5px;
+	-webkit-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+	text-align: center;
+	box-shadow: 3px 3px 3px #888888;
+}
+.b1 {
+	width: 100px;
+	height: 100px;
+	padding: 15px;
+}
+.b2 {
+	width: 115px;
+	height: 115px;
+	padding: 15px;
+}
+.btit {
+	font-weight: 500;
+	font-size: 20px;
+}
+.btxt {
+	font-weight: 400;
+	font-size: 12px;
+}
+.lead-form {
+	padding: 20px 50px 0 0;
+}
+.lead-form label {
+	font-size: 16px;
+}
+.lead-form .checkbox label {
+	font-size: 13px;
+	color: #666;
+}
+.form-control {
+    color: #555;
+    background-color: #ececec;
+    background-image: none;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.form-control:focus {
+    border-color: #c2c2c2;
+    background-color: #ffffff;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-landing {
+	background-color: red;
+	width: 100%;
+	color: #fff;
+	font-size: 26px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 3px 3px 3px #888888;
+	margin: 10px 0 50px;
+}
+.partners {
+    padding: 15px;
+    text-align: right;
+}
+.partners img {
+	width: 100%;
+	height: auto;
+}
+/* Carusel */
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item, .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active, .carousel-fade .carousel-inner .next.left, .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next, .carousel-fade .carousel-inner .prev, .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+.video-content {
+	position: relative;
+	padding-bottom: 50%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.video-content iframe,
+.video-content object,
+.video-content embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+footer {
+	padding: 10px 0;
+	background: #6b6b6b;
+	color: #fff;
+	font-size: 14px;
+	text-align: right;
+}
+footer a {
+    color: #fff;
+}
+footer a:hover {
+    color: #ccc;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer ul li {
+    line-height: 1.5;
+    display: block;
+    padding-right: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 300;
+}
+footer ul.social li a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 37px;
+	font-size: 19px;
+	text-align: center;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	color: #fff;
+	border-radius: 100%;
+	border: 2px solid #fff;
+}
+footer ul.social li a:hover {
+    background-color: #fff;
+    color: #e31837;
+}
+
+/***** RESPOSIVE MEDIA *****/
+
+@media (max-width: 992px){
+	
+	.info-telefono {
+		float: none;
+		border-radius: 0 0 5px 5px;
+		text-align: center;
+	}
+
+	.lead-form {
+		padding-right: 0;
+	}
+	
+
+}
+
+
